@@ -9,9 +9,9 @@ kNN stands for k nearest neighbor and it is a machine learning algorithm which t
 
 When using the script, there is a defined section called "settings" where the user should input the names of the files that the user is trying to run kNN on. Note that the files should be in the same directory that the actual script is in.
 
-The designated predictory file should contain all the cells that the user wants to find a nearest neighbor for. The designated training file is the pool of cells that will be considered nearesst neighbors. For example, any cells that are in the predictory file will only have nearest neighbors chosen in the training file. no cell in the predictory file will have a nearest neighbor that is in the redictory file unless it is also in the training file.
+The designated predictory file should contain all the cells that the user wants to find a nearest neighbor for. The designated training file is the pool of cells that will be considered nearest neighbors. For example, any cells that are in the predictory file will only have nearest neighbors chosen in the training file. no cell in the predictory file will have a nearest neighbor that is in the redictory file unless it is also in the training file.
 
-In the additional settings column there are vectors titled HIV related parameters, Junk parameters, and remov parameters. Any parameters added to any of these vectors will cause them to be omitted from the kNN algorithm and they won't be used to find nearest neighbors or determine Euclidean distance between points.
+In the additional settings column there are vectors titled "HIVrelated_parameters", "Junk_parameters", and "Remov_parameters". Any parameters added to any of these vectors will cause them to be omitted from the kNN algorithm and they won't be used to find nearest neighbors or determine Euclidean distance between points.
 
 The script should output an FCS file that contains cells from the training file that were identified as the nearest neighbor of the cells in the predictory file.
 
